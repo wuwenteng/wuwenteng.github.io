@@ -250,5 +250,44 @@ I hope tomorrow is anather day.
   </li>
   <li>Milke</li>
 </ul>
+<form action="demo-form.php" method="get">
+Username: <input type="text" name="user"><br>
+Password: <input type="password" name="password"><br>
+<input type="radio" name="sex" value="male">Male<br>
+<input type="radio" name="sex" value="female" checked="checked">Female<br>
+<input type="reset" value="重置">
+<input type="submit" value="提交">
+</form>
+<br />
+<br />
+<form action="">
+  <select name="Birthplace">
+    <option value="xian" selected>西安</option>
+    <option value="xianyang">咸阳</option>
+    <option value="baoji">宝鸡</option>
+    <option value="hanzhong">汉中</option>
+    <option value="zhouzhi">周至</option>
+    <option value="yanan">延安</option>
+  </select>
+</form>
+<br />
+<p class="ex">Choose the vehicle you have taken:</p>
+<form action="">
+  <input type="checkbox" name="vehicle" value="bus">Bus<br>
+  <input type="checkbox" name="vehicle" value="car">Car<br>
+  <input type="checkbox" name="vehicle" value="bike">Bike<br>
+  <input type="checkbox" name="vehicle" value="airplane">Airplane<br>
+</form>
+<h3>发送邮件到1743238878@qq.com:</h3>
+<form action="MAILTO:1743238878@qq.com" method="post" enctype="text/plain">
+  Name:<br />
+  <input type="text" name="name" value="your name"><br>
+  E-mail:<br />
+  <input type="text" name="mail" value="your email"><br />
+  Comment:<br />
+  <input type="text" name="comment" value="your comment" size="50"><br /><br />
+  <input type="submit" value="发送">
+  <input type="reset" value="重置">
+</form>
 </body>
 </html>
